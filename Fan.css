@@ -300,6 +300,70 @@ button{
 
 
 
+
+@media only screen  and (max-width:360px){
+
+
+    .Screen{
+
+        background-color: rgb(14, 35, 219);
+        width: 164%;
+        height: auto;
+
+    }
+
+    .FanDiv{
+        background-color: rgb(33, 14, 210);
+
+    }
+
+
+        
+    .FanWings{
+
+        position: absolute;
+
+        top:20.1%;
+        right:-47.5%;
+    }
+
+    .FanFrame{
+        
+        z-index: 20;
+        position: absolute;
+
+        top:17%;
+        left:-1.9%
+    }
+
+
+    .FanStand{
+
+        scale:1.3;
+        position: absolute;
+        top: 35%;
+    }
+
+    .AllButtons{
+        justify-content: none;
+        margin-bottom: 300px;
+
+        margin-left: 220px;
+        width: 160px;
+        background-color: none;
+    }
+
+    button{
+        height: 40px;
+        width: 40px;
+    }
+
+
+    
+}
+
+
+
 /* 
 #FanWings{
 
