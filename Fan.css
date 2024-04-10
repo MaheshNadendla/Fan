@@ -1,0 +1,240 @@
+
+
+
+.Screen{
+
+    background-color:blue;
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+    
+
+}
+
+.FanDiv{
+
+    background-color: blue;
+    height: 100vh;
+    width: 9000px;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+
+    
+
+}
+
+
+
+.FanWings{
+
+    position: absolute;
+    scale:1.025;
+    top:9.2%;
+    right: 38%;
+}
+
+
+.FanFrame{
+    
+    z-index: 20;
+    position: absolute;
+
+    top:7%;
+    right: 34.3%; 
+}
+
+
+.FanStand{
+
+    scale:1.3;
+    position: absolute;
+    top: 200px;
+}
+
+button{
+    height: 50px;
+    width: 90px;
+}
+
+
+.AllButtons{
+    
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+
+    
+    height: 100px;
+
+    margin-bottom: 300px;
+
+    margin-left: 500px;
+
+    background-color: blue;
+    width: 250px;
+    
+    z-index: 50;
+
+    border: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen  and (max-width:1066px){
+
+
+    .Screen{
+
+        background-color: yellow;
+
+    }
+
+    .FanDiv{
+        background-color: yellow;
+
+    }
+
+
+        
+    .FanWings{
+
+        position: absolute;
+
+        top:9.1%;
+        right: 25.9%;
+    }
+
+    .FanFrame{
+        
+        z-index: 20;
+        position: absolute;
+
+        top:6.9%;
+        right: 18.4%; 
+    }
+
+
+    .FanStand{
+
+        scale:1.3;
+        position: absolute;
+        top: 200px;
+    }
+
+
+    
+}
+
+
+@media only screen  and (max-width:480px){
+
+
+    .Screen{
+
+        background-color: rgb(14, 35, 219);
+
+    }
+
+    .FanDiv{
+        background-color: rgb(33, 14, 210);
+
+    }
+
+
+        
+    .FanWings{
+
+        position: absolute;
+
+        top:7.1%;
+        right: -2%;
+    }
+
+    .FanFrame{
+        
+        z-index: 20;
+        position: absolute;
+
+        top:4.8%;
+        left:-10%
+    }
+
+
+    .FanStand{
+
+        scale:1.3;
+        position: absolute;
+        top: 18%;
+    }
+
+    .AllButtons{
+        justify-content: none;
+        margin-bottom: 300px;
+
+        margin-left: 200px;
+        width: 160px;
+        background-color: none;
+    }
+
+    button{
+        height: 40px;
+        width: 40px;
+    }
+
+
+    
+}
+
+
+
+/* 
+#FanWings{
+
+    rotate:99deg;
+
+} */
